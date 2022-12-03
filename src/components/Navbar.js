@@ -8,6 +8,7 @@ function Navbar() {
    <Stack
    direction="row"
    justifyContent="space-around"
+   px="20px"
    sx={{gap  : {
     sm : '122px',
     xs : '40px',
@@ -18,7 +19,6 @@ function Navbar() {
    },
    justifyContent : 'none'
   }}
-  px="20px"
    >
     <Link to="/">
     <img src={logo} alt={logo} style={{
