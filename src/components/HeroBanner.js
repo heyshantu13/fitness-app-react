@@ -25,7 +25,7 @@ function HeroBanner() {
        mb={3} >
        Checkout out the most effective exercise
       </Typography>
-      <Button variant="contained">Explore</Button>
+      <Button variant="contained" color="error">Explore More</Button>
 
     </Box>
   )
